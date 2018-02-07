@@ -3,44 +3,21 @@ body {
     margin: auto;
 }
 
-.carousel-list {
-    list-style: none;
-    width: 10000px;
-    padding: 0;
-    position: relative;
-}
-.carousel-element {
-    display: block;
-    margin-right: 25px;
-    float: left;
-}
-.carousel-element img {
-    max-width: 200px; 
-}
-
-.carousel-hider {
-    width: 600px;
-    overflow: hidden;
-    float: left;
-}
-
-.carousel-arrow-left, .carousel-arrow-right {
-    float: left;
-}
 .grid {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
     padding: 15px;
 }
-
+ .text-color {
+     color: #800000; 
+ }
 .logo {
     max-height: 100px;
     max-width: 100px;
 }
 
 .photo-bags {
-    float: left;
-    margin: 0px 70px 70px 70px;
+    margin: auto;
 }
 
 .container {
@@ -59,7 +36,7 @@ textarea {
 }
 
 label {
-    padding: 12px 12px 12px 0;
+    padding: 12px 12px 12px 12;
     display: inline-block;
 }
 
@@ -78,11 +55,15 @@ input[type=submit]:hover {
     background-color: #e89b99;
 }
 
+.button {
+    margin-left: 550px;
+}
+
 .container {
     border-radius: 5px;
     background-color: #ffe6cc;
     padding: 20px;
-    margin: 40px 70px 40px 70px;
+    margin: auto;
 }
 
 .col-25 {
@@ -112,4 +93,20 @@ input[type=submit]:hover {
 #tel {
     width: 100%;
 }
-    
+
+
+hr {
+    color: #ffd9b3;
+}    
+
+h2 {
+	margin-right: auto;
+	color: #800000;
+	}
+	
+	.shadow {
+    background: #ffffff; /* Цвет фона */
+    box-shadow: 0 0 10px rgb(255, 153, 102); /* Параметры тени */
+    padding: 0;
+   }
+   
