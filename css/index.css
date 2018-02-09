@@ -110,3 +110,41 @@ h2 {
     padding: 0;
    }
    
+  .footer {
+      color: #330000;
+  }
+  
+
+.carousel-item {
+  text-align: center;
+  margin-left: 200px;
+}
+.item-name{
+    color: #330000;
+    
+}
+.item-price{
+    color: #ff0000;
+}
+
+.carousel-control-prev{
+    font-size: 100px;
+width: 50px;
+    color: #ffe6e6;
+    background: #ffe6e6;
+    position: absolute;
+}
+
+.carousel-control-next{
+    font-size: 100px;
+    width: 50px;
+    color: #ffe6e6;
+    background: #ffe6e6;
+    position: absolute;
+}
+
+ #centered {
+margin-left:auto;
+margin-right:auto;
+width:800px;
+}
